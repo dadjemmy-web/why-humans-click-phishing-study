@@ -47,6 +47,7 @@ The study concludes that SME phishing susceptibility is more of a behavioural an
 This repository also documents the infrastructure setup used for a controlled behavioural security study. The environment was built to support a web application, email delivery, DNS configuration, and a hosted lab server for campaign-style testing in a closed setting. Full deployment steps, sensitive configuration values, and end-to-end operational instructions are **intentionally withheld** from this documentation.
 
 ##The project used:
+
 - Namecheap for domain registration and DNS management.
 - DigitalOcean for hosting the virtual private server.
 - Brevo for transactional email delivery.
@@ -121,3 +122,7 @@ The environment was structured so each service had a separate responsibility:
 - GoPhish handled study delivery and tracking.
 
 This separation made the setup easier to manage and troubleshoot, while keeping the infrastructure reliable for the project work.
+
+## Simulation Walkthrough
+
+[Watch the full simulation journey — from phishing email to training completion](https://youtu.be/Tm50BKd6ngk)
